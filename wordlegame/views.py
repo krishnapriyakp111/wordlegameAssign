@@ -14,18 +14,7 @@ def gameinputs(request):
     # print(response)
     # return HttpResponse(response)
      
-    # try:   
-    #     emp = game.objects.all()
-    #     wordone = random.choice(emp)
-    #     response=json.dumps([{'wordlist':wordone.word}])
-    #     response_info = json.loads(response)
-    #     response_data = response_info[0]['wordlist']
-            
-    # except:
-    #     response=json.dumps([{'Error':'No data'}])  
-    #     response_info = json.loads(response)
-    #     response_data = response_info['wordlist']
-    # return HttpResponse(response_data,content_type='text/json')
+
 
     emp = game.objects.all()
     wordone = random.choice(emp)

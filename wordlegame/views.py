@@ -14,7 +14,6 @@ def gameinputs(request):
     # print(response)
     # return HttpResponse(response)
      
-
     # try:   
     #     emp = game.objects.all()
     #     wordone = random.choice(emp)
